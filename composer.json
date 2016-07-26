@@ -1,7 +1,30 @@
 {
-  "name": "nilportugues/eloquent-mongodb-repository",
+  "name": "boparaiamrit/eloquent-mongodb-repository",
   "description": "Eloquent MongoDB Repository implementation",
-  "keywords": ["eloquent", "mongodb", "mongo", "laravel", "repository", "cache", "ddd", "hexagonal", "ports and adapters", "ports", "adapters", "repository", "pageable", "pagination", "nil portugues", "nilportugues"],
+  "keywords": [
+    "eloquent",
+    "mongodb",
+    "mongo",
+    "laravel",
+    "repository",
+    "cache",
+    "ddd",
+    "hexagonal",
+    "ports and adapters",
+    "ports",
+    "adapters",
+    "repository",
+    "pageable",
+    "pagination",
+    "nil portugues",
+    "nilportugues"
+  ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "packages/boparaiamrit/php-assert"
+    }
+  ],
   "type": "library",
   "homepage": "http://nilportugues.com",
   "license": "MIT",
@@ -13,10 +36,10 @@
   ],
   "require": {
     "nilportugues/repository": "^2.3",
-    "nilportugues/assert": "^1.0",
     "illuminate/database": "^5.2",
     "illuminate/pagination": "^5.2",
-    "jenssegers/mongodb" : "v3.0.*"
+    "boparaiamrit/assert": "dev-master",
+    "boparaiamrit/mongodb": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "4.8.*",
