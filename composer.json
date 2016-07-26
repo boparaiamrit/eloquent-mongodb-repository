@@ -19,12 +19,6 @@
     "nil portugues",
     "nilportugues"
   ],
-  "repositories": [
-    {
-      "type": "path",
-      "url": "packages/boparaiamrit/php-assert"
-    }
-  ],
   "type": "library",
   "homepage": "http://nilportugues.com",
   "license": "MIT",
